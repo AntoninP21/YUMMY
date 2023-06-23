@@ -10,4 +10,4 @@
 
 
 
-Ce projet a été réalisé afin d'apprendre comment fonctionne node.js, ainsi que ces modules et GitHub.
+Ce projet a été réalisé afin d'apprendre comment fonctionne node.js, ainsi que ses modules et GitHub.
