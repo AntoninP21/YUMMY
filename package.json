@@ -1,0 +1,21 @@
+{
+  "name": "site-yummy",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss ./src/index.css -o ./css/style.css",
+    "watch:css": "postcss ./src/index.css -o ./css/style.css --watch"
+  },
+  "author": "ap",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^8.5.0"
+  }
+}

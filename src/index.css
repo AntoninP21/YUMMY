@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+/*entete*/
+.entete {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3px;
+}
+
+.entete img {
+    width: 85px;
+    height: 85px;
+}
+.entete ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    column-gap: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    
+}
+section h1 {
+    color: blue;
+}
+.entete ul a {
+    color: rgb(111, 23, 23);
+    text-decoration: none;
+}
+/* PROMESSE */
+
+section .promesse {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*footer*/
+
+.baspage {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3px;
+    justify-content: end;
+    background-color: black;
+}
+
+.baspage img {
+    width: 75px;
+    height: 75px;
+    position:relative;
+    z-index: 100;
+    
+    
+}
